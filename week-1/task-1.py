@@ -1,7 +1,7 @@
 import pandas
 import re
 
-data = pandas.read_csv('titanic.csv', index_col='PassengerId')
+data = pandas.read_csv('../titanic.csv', index_col='PassengerId')
 
 passenger_count = len(data.index)
 

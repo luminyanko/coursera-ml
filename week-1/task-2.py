@@ -2,7 +2,7 @@ import pandas
 from sklearn.tree import DecisionTreeClassifier
 
 # Загрузите выборку из файла titanic.csv с помощью пакета Pandas.
-data_raw = pandas.read_csv('titanic.csv')
+data_raw = pandas.read_csv('../titanic.csv')
 
 # Оставьте в выборке четыре признака: класс пассажира (Pclass), цену билета (Fare),
 # возраст пассажира (Age) и его пол (Sex).
